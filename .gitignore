@@ -1,0 +1,24 @@
+# Rust build output
+*/target/
+
+# Compiled binaries
+**/*.exe
+**/*.dll
+**/*.so
+**/*.dylib
+**/*.rlib
+
+# Cargo lock (keep for apps, ignore for libraries)
+# For applications:
+Cargo.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Rust tool metadata
+.rustc_info.json
